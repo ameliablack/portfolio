@@ -15,7 +15,7 @@ def index():
     return render_template("index.html") 
 
 @app.route("/hobby")
-def index():
+def hobby():
     return render_template("hobby.html") 
 
 
